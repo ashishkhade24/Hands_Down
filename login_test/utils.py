@@ -12,4 +12,5 @@ class Elem_fun:
             return element
 
         except:
-            self.driver.save_screenshot("./testdata/Screenshot/test01.png")
+            self.driver.save_screenshot("./testdata/Screenshot/test002.png")
+

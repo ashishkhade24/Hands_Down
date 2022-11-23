@@ -22,7 +22,7 @@ class Test_Register(unittest.TestCase):
         obj.confirm_password("Ashish@1105")
         obj.click_sing_up()
         time.sleep(5)
-        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/registration_done.png")
+        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/registration_done1.png")
 
     def test_already_used_email(self):
         obj = Registration(self.driver)
@@ -34,7 +34,7 @@ class Test_Register(unittest.TestCase):
         obj.confirm_password("Ashish@1105")
         obj.click_sing_up()
         time.sleep(5)
-        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/email_already_exist.png")
+        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/email_already_exist1.png")
 
     def test_with_wrong_email(self):
         obj = Registration(self.driver)
@@ -46,7 +46,7 @@ class Test_Register(unittest.TestCase):
         obj.confirm_password("Ashish@1105")
         obj.click_sing_up()
         time.sleep(5)
-        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/enter_valid_email.png")
+        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/enter_valid_email1.png")
 
     def test_with_wrong_password(self):
         obj = Registration(self.driver)
@@ -58,7 +58,7 @@ class Test_Register(unittest.TestCase):
         obj.confirm_password("ashish@1105")
         obj.click_sing_up()
         time.sleep(5)
-        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/enter_valid_password.png")
+        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/enter_valid_password1.png")
 
     def test_mismatch_of_passwords(self):
         obj = Registration(self.driver)
@@ -70,7 +70,7 @@ class Test_Register(unittest.TestCase):
         obj.confirm_password("ashish@1105")
         obj.click_sing_up()
         time.sleep(5)
-        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/mis_matched_passwords.png")
+        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/mis_matched_passwords1.png")
 
     def test_for_empty_field(self):
         obj = Registration(self.driver)
@@ -82,7 +82,7 @@ class Test_Register(unittest.TestCase):
         obj.confirm_password("Ashish@1105")
         obj.click_sing_up()
         time.sleep(5)
-        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/empty_field.png")
+        self.driver.save_screenshot("./testdata/Screenshot/login_screenshots/empty_field1.png")
 
     def tearDown(self) -> None:
         self.driver.quit()

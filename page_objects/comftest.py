@@ -12,7 +12,7 @@ from page_objects import login_details
 username=login_details.USERNAME
 password=login_details.PASSWORD
 
-@pytest.fixture(scope="class")
+@pytest.fixture(scope="function")
 def setup(request):
     driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))
     driver.get("https://dev.itshandsdown.com/login")

@@ -1,4 +1,3 @@
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -13,5 +12,21 @@ class Elem_fun:
             return element
 
         except:
-            self.driver.save_screenshot("./testdata/Screenshot/test01.png")
+            self.driver.save_screenshot("./testdata/Screenshot/test_test.png")
+
+    def find_elements(self,locator_tuple):
+        try:
+            element = WebDriverWait(self.driver, 10, poll_frequency=1).until(EC.visibility_of_all_elements_located(locator_tuple))
+            return element
+
+        except:
+            self.driver.save_screenshot("./testdata/Screenshot/test001.png")
+
+    def find_element_clickable(self,locator_tuple):
+        try:
+            element = WebDriverWait(self.driver, 10, poll_frequency=1).until(EC.element_to_be_clickable(locator_tuple))
+            return element
+
+        except:
+            self.driver.save_screenshot("./testdata/Screenshot/test001.png")
 
