@@ -17,12 +17,12 @@ class Test_Suggest_users:
 
     def test_invite_friend_valid_email(self):
         obj = Suggested_Users(self.driver)
-        obj.invite_a_friend("test667@mailinator.com")
+        obj.check_invite_friend("test667@mailinator.com")
 
     @pytest.mark.xfail
     def test_invite_friend_invalid_email(self):
         obj = Suggested_Users(self.driver)
-        obj.invite_a_friend("test667@mailinar.")
+        obj.check_invite_friend("test667@mailinar.")
 
 
 

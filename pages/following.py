@@ -10,7 +10,6 @@ class Following_Page(Base):
 
     following_button=(By.XPATH,"//a[normalize-space()='Following']")
     complete_page= (By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div/div[1]")
-    # like_button= (By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]")
     like=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/*[name()='svg'][1]")
 
     def like_click(self):

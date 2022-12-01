@@ -10,7 +10,7 @@ class Edit_Profile(Base):
         self.driver=driver
         super().__init__(driver)
 
-    edit_button = (By.XPATH,"//button[normalize-space()='Edit Profile']")
+
     last_name_text = (By.XPATH,"//input[@id='last_name']")
     location = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[4]/div[3]/div[1]/div[2]/div[2]/div[1]/input[1]")
     options=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[4]/div[3]/div[1]/div[3]/button[1]")
@@ -18,7 +18,7 @@ class Edit_Profile(Base):
     category_select= (By.XPATH,"//p[contains(text(),'Clothing')]")
     save_new_categories= (By.XPATH,"/html[1]/body[1]/div[2]/div[3]/div[1]/div[3]/button[1]")
     bio= (By.XPATH,"//textarea[@id='bio_description']")
-    save_edit=(By.XPATH,"//button[normalize-space()='Save Edits']")
+    save_button=(By.XPATH,"//button[normalize-space()='Save Edits']")
     preference=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/ul[1]/li[2]/p[1]")
     button1=(By.XPATH,"//body[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/button[1]")
     button2=(By.XPATH,"//body[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/button[2]")
@@ -30,16 +30,20 @@ class Edit_Profile(Base):
     new_password=(By.XPATH,"//input[@name='new_password']")
     conf_password=(By.XPATH,"//input[@name='confirm_password']")
     save_new_changes=(By.XPATH,"//button[normalize-space()='Save New Categories!']")
+    edit_name = (By.XPATH, "//input[@id='first_name']")
+
+    def edit_first_name(self,first_name):
+        self.edit_profile_button()
+        f_name = self.EF.find_element(self.edit_name)
+        actions = ActionChains(self.driver)
+        actions.double_click(f_name).send_keys(Keys.BACKSPACE).send_keys(first_name).perform()
 
     def edit_last_name(self,lastname):
-        self.EF.find_element(self.edit_button).click()
         l_name = self.EF.find_element(self.last_name_text)
         actions = ActionChains(self.driver)
         actions.double_click(l_name).send_keys(Keys.BACKSPACE).send_keys(lastname).perform()
-        self.EF.find_element(self.save_edit).click()
 
     def edit_location(self,city_name):
-        self.EF.find_element(self.edit_button).click()
         city = self.EF.find_element(self.location)
         time.sleep(1)
         city.send_keys(Keys.CONTROL + "a")
@@ -52,10 +56,8 @@ class Edit_Profile(Base):
         time.sleep(2)
         drop_down.click()
         time.sleep(3)
-        self.EF.find_element(self.save_edit).click()
 
     def edit_bio(self,designation):
-        self.EF.find_element(self.edit_button).click()
         bio_section = self.EF.find_element(self.bio)
         time.sleep(1)
         bio_section.send_keys(Keys.CONTROL + "a")
@@ -64,11 +66,8 @@ class Edit_Profile(Base):
         time.sleep(2)
         bio_section.send_keys(designation)
         time.sleep(1)
-        self.EF.find_element(self.save_edit).click()
 
     def edit_categories(self):
-
-        self.EF.find_element(self.edit_button).click()
         self.EF.find_element(self.category).click()
         time.sleep(1)
         dropdown_element = self.EF.find_element(self.category_select).click()
@@ -79,7 +78,9 @@ class Edit_Profile(Base):
         time.sleep(2)
         actions.perform()
         time.sleep(2)
-        self.EF.find_element(self.save_edit).click()
+
+    def save_edit(self):
+        self.EF.find_element(self.save_button).click()
 
     def email_preference(self):
         self.EF.find_element(self.edit_button).click()
@@ -92,7 +93,6 @@ class Edit_Profile(Base):
         time.sleep(4)
 
     def password_change(self,old,new,cnfrm):
-
         self.EF.find_element(self.edit_button).click()
         self.EF.find_element(self.password).click()
         time.sleep(3)
