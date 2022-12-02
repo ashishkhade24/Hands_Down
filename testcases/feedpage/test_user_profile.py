@@ -21,7 +21,6 @@ class Test_Profile_Check:
         obj = Check_Profile(self.driver)
         obj.check_comment("Hero")
 
-    @pytest.mark.sanity
     def test_edit_fave(self):
         obj = Check_Profile(self.driver)
         obj.check_edit_fave("Virat Kohli","No recommendation")

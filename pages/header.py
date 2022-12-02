@@ -1,4 +1,3 @@
-import time
 from page_objects.base import Base
 
 class Header_Section(Base):
@@ -18,5 +17,10 @@ class Header_Section(Base):
     def check_notifications(self):
         self.click_on_notifications()
 
+    def check_logo(self):
+        self.click_on_logo()
+
     def check_logout(self):
         self.logout()
+
+

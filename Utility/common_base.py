@@ -24,11 +24,11 @@ class Base_Features(Base):
     saves = (By.XPATH, "//p[normalize-space()='Saves']")
     explore_feed=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/button[1]")
     archive = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/ul[1]/li[3]/p[1]")
-    create_list = (By.XPATH, "//button[normalize-space()='+ Create New List!']")
+    create_list = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/button[1]")
     input_list_field = (By.XPATH, "//input[contains(@name,'list_name')]")
     select_category = (By.XPATH, "//div[@id='selector-category_id']")
     category = (By.XPATH, "//li[normalize-space()='Books']")
-    save_list = (By.XPATH, "//button[normalize-space()='Save & Create List']")
+    save_list = (By.XPATH, "/html[1]/body[1]/div[3]/div[3]/div[1]/div[4]/button[1]")
     view_list=(By.XPATH,"//button[normalize-space()='View List']")
     invite_friend = (By.XPATH, "//button[normalize-space()='Invite Friends to HandsDown!']")
     enter_email = (By.XPATH, "//input[@id='downshift-multiple-input']")
@@ -51,6 +51,7 @@ class Base_Features(Base):
     publish = (By.XPATH, "//button[normalize-space()='Publish']")
     add_another_fave = (By.XPATH, "//button[normalize-space()='Add Another Fave']")
     go_to_list = (By.XPATH, "//button[normalize-space()='Go To List']")
+    cancel_button=(By.XPATH,"/html[1]/body[1]/div[3]/div[3]/div[1]/div[1]")
 
     def share_link(self):
         self.EF.find_element(self.share_profile).click()
@@ -102,6 +103,8 @@ class Base_Features(Base):
         self.EP.edit_bio(designation)
         self.EP.edit_categories()
         self.EP.save_edit()
+        # time.sleep(3)
+        # self.EP.back_after_edit()
 
     def click_saves_archive(self):
         self.EF.find_element(self.archive).click()
@@ -124,6 +127,22 @@ class Base_Features(Base):
         self.EF.find_element(self.save_list).click()
         time.sleep(2)
 
+    def create_list_without_name_category(self, list_name):
+        self.EF.find_element(self.create_list).click()
+        time.sleep(1)
+        input_text = self.EF.find_element(self.input_list_field)
+        time.sleep(1)
+        input_text.clear()
+        input_text.send_keys(list_name)
+        self.EF.find_element(self.save_list).click()
+        time.sleep(2)
+
+    def click_cancel_list_button(self):
+        self.EF.find_element(self.create_list).click()
+        time.sleep(1)
+        self.EF.find_element(self.cancel_button).click()
+        time.sleep(2)
+
     def create_list_and_add_fave(self,list_name,search,text):
         self.create_new_list(list_name)
         time.sleep(3)
@@ -141,7 +160,6 @@ class Base_Features(Base):
         self.EF.find_element(self.comment_text).send_keys(text)
         self.EF.find_element(self.publish).click()
         self.EF.find_element(self.go_to_list).click()
-        self.driver.quit()
 
     def invite_a_friend(self,email):
         self.EF.find_element(self.invite_friend).click()

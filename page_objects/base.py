@@ -16,6 +16,7 @@ class Base:
     notifications=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/*[name()='svg'][1]")
     click_name = (By.XPATH, "//p[contains(@class,'Text__Label-sc-4on308-0 hFVtCX ProfileBox__Name-sc-nb8ud1-1 gKHSWS')]")
     edit_button = (By.XPATH, "//button[normalize-space()='Edit Profile']")
+    logo=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]")
 
     def click_on_drop_down(self):
         self.EF.find_element(self.drop_down).click()
@@ -44,12 +45,14 @@ class Base:
     def click_on_logout(self):
         self.EF.find_element(self.logout_button).click()
 
+    def click_on_logo(self):
+        self.EF.find_element(self.logo).click()
+
     def logout(self):
         self.click_on_drop_down()
         self.click_on_logout()
 
-    def navigate_to_tab(self,tab):
-        self.EF.find_element(tab)
+
 
 
 

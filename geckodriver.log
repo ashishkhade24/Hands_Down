@@ -1,0 +1,343 @@
+1669959259906	geckodriver	INFO	Listening on 127.0.0.1:55143
+1669959263020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55144" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile4FpAJH"
+*** You are running in headless mode.
+1669959498918	geckodriver	INFO	Listening on 127.0.0.1:55212
+1669959502025	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilehUqLOt"
+*** You are running in headless mode.
+1669959502646	Marionette	INFO	Marionette enabled
+1669959502651	Marionette	INFO	Listening on port 55223
+Read port: 55223
+WebDriver BiDi listening on ws://127.0.0.1:55213
+1669959503064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilehUqLOt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55213/devtools/browser/b77922a6-3207-4d59-a963-0829ff4700a8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:55329
+1669959673727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileJ9YKLv"
+1669959674449	Marionette	INFO	Marionette enabled
+1669959674454	Marionette	INFO	Listening on port 55340
+Read port: 55340
+WebDriver BiDi listening on ws://127.0.0.1:55330
+1669959674987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileJ9YKLv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55330/devtools/browser/d6571d31-430c-41a5-9e0d-9c8d2aeab94e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669959786371	Marionette	INFO	Stopped listening on port 55340
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669959813928	geckodriver	INFO	Listening on 127.0.0.1:55430
+1669959816974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileV39anK"
+1669959818515	Marionette	INFO	Marionette enabled
+1669959818520	Marionette	INFO	Listening on port 55440
+Read port: 55440
+WebDriver BiDi listening on ws://127.0.0.1:55431
+1669959818682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileV39anK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55431/devtools/browser/c55f1fb7-7e66-49cf-89e1-8976859fb0de
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1669962498380	Marionette	INFO	Stopped listening on port 55440
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile4XAmPu"
+1669959957288	Marionette	INFO	Marionette enabled
+1669959957293	Marionette	INFO	Listening on port 55572
+Read port: 55572
+WebDriver BiDi listening on ws://127.0.0.1:55563
+1669959957487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile4XAmPu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55563/devtools/browser/b8bbdd80-7b60-48ae-8091-2457a746377a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669960048147	Marionette	INFO	Stopped listening on port 55572
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669964708272	geckodriver	INFO	Listening on 127.0.0.1:56222
+1669964711371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilepOkpza"
+1669964713064	Marionette	INFO	Marionette enabled
+1669964713070	Marionette	INFO	Listening on port 56232
+Read port: 56232
+WebDriver BiDi listening on ws://127.0.0.1:56223
+1669964713230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilepOkpza\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56223/devtools/browser/a99dbe92-918b-4138-b895-e1f4bd11e098
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56365
+1669965198414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56366" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilelJWj4Y"
+1669965199044	Marionette	INFO	Marionette enabled
+1669965199049	Marionette	INFO	Listening on port 56375
+Read port: 56375
+WebDriver BiDi listening on ws://127.0.0.1:56366
+1669965199214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilelJWj4Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56366/devtools/browser/bb34c6b0-0a9e-4088-a12d-5460f2ac8641
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669965244494	Marionette	INFO	Stopped listening on port 56375
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1669971284447	geckodriver	INFO	Listening on 127.0.0.1:55549
+1669971287486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55550" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileYGgRtT"
+1669971289169	Marionette	INFO	Marionette enabled
+1669971289176	Marionette	INFO	Listening on port 55560
+Read port: 55560
+WebDriver BiDi listening on ws://127.0.0.1:55550
+1669971289333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileYGgRtT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55550/devtools/browser/ff7fdee1-99f4-4713-8cce-d64a478b3423
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+1669971335383	Marionette	INFO	Stopped listening on port 55560
+1669972625823	geckodriver	INFO	Listening on 127.0.0.1:55927
+1669972628853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileHuDsgD"
+1669972629456	Marionette	INFO	Marionette enabled
+1669972629462	Marionette	INFO	Listening on port 55937
+Read port: 55937
+WebDriver BiDi listening on ws://127.0.0.1:55928
+1669972629635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileHuDsgD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55928/devtools/browser/0a6fb9a1-dd77-4597-b82f-88c9de23357f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669972675352	Marionette	INFO	Stopped listening on port 55937
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1669972717244	geckodriver	INFO	Listening on 127.0.0.1:56028
+1669972720288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56029" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile8VNiSN"
+1669972720688	Marionette	INFO	Marionette enabled
+1669972720694	Marionette	INFO	Listening on port 56038
+Read port: 56038
+WebDriver BiDi listening on ws://127.0.0.1:56029
+1669972720850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile8VNiSN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56029/devtools/browser/ab8010c7-a221-4c1f-b496-bd81ab158745
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56197
+1669972853212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56198" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile3QFKXu"
+1669972854446	Marionette	INFO	Marionette enabled
+1669972854453	Marionette	INFO	Listening on port 56211
+Read port: 56211
+WebDriver BiDi listening on ws://127.0.0.1:56198
+1669972854614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile3QFKXu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56198/devtools/browser/46ba90ea-a423-4848-a036-48798cedf16d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56486
+1669973164328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile3lWEEZ"
+1669973164775	Marionette	INFO	Marionette enabled
+1669973164782	Marionette	INFO	Listening on port 56497
+Read port: 56497
+WebDriver BiDi listening on ws://127.0.0.1:56487
+1669973164957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile3lWEEZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56487/devtools/browser/fd05a784-ec8d-4efe-91e6-1865f36cb290
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56624
+1669973233664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56625" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilex2temB"
+1669973235459	Marionette	INFO	Marionette enabled
+1669973235465	Marionette	INFO	Listening on port 56639
+Read port: 56639
+WebDriver BiDi listening on ws://127.0.0.1:56625
+1669973235649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilex2temB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56625/devtools/browser/2f5f2403-cc81-487b-a927-c2da7bbefdbe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56789
+1669973303767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56790" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileLBJwZ1"
+1669973305059	Marionette	INFO	Marionette enabled
+1669973305064	Marionette	INFO	Listening on port 56801
+Read port: 56801
+WebDriver BiDi listening on ws://127.0.0.1:56790
+1669973305229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileLBJwZ1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56790/devtools/browser/101ae6bf-a6ab-45ce-b543-0613bbfde956
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+1669973323895	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+1669973327504	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+1669973334589	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:57204
+1669973756446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilefc2aYL"
+1669973758177	Marionette	INFO	Marionette enabled
+1669973758183	Marionette	INFO	Listening on port 57216
+Read port: 57216
+WebDriver BiDi listening on ws://127.0.0.1:57205
+1669973758337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilefc2aYL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57205/devtools/browser/259e7863-0450-4290-b569-eab01a1601ea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:57559
+1669974197242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57560" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilei2SceF"
+1669974199084	Marionette	INFO	Marionette enabled
+1669974199091	Marionette	INFO	Listening on port 57571
+Read port: 57571
+WebDriver BiDi listening on ws://127.0.0.1:57560
+1669974199257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilei2SceF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57560/devtools/browser/555ffed5-9bb0-474a-930c-e77ad632b70a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://itshandsdown.com/wp-content/themes/handsdown-wp-v2/library/js/custom.js?ver=1.0.0, line 1: TypeError: jQuery(...).offset() is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1669975777346	geckodriver	INFO	Listening on 127.0.0.1:58370
+1669975780413	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilex8bHqD"
+1669975782299	Marionette	INFO	Marionette enabled
+1669975782307	Marionette	INFO	Listening on port 58382
+Read port: 58382
+WebDriver BiDi listening on ws://127.0.0.1:58371
+1669975782468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofilex8bHqD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58371/devtools/browser/3741755b-aee0-444d-9dc2-23724bf3b4a7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669975796133	Marionette	INFO	Stopped listening on port 58382
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669975831579	geckodriver	INFO	Listening on 127.0.0.1:58462
+1669975834609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileCaNjIc"
+1669975835177	Marionette	INFO	Marionette enabled
+1669975835183	Marionette	INFO	Listening on port 58473
+Read port: 58473
+WebDriver BiDi listening on ws://127.0.0.1:58463
+1669975835623	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileCaNjIc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58463/devtools/browser/8f655010-18b7-44e3-babd-efde3bd3f007
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669975879926	Marionette	INFO	Stopped listening on port 58473
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1669975885731	geckodriver	INFO	Listening on 127.0.0.1:58583
+1669975888807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58584" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofile1WtKXC"
+1669975889246	Marionette	INFO	Marionette enabled
+1669975889251	Marionette	INFO	Listening on port 58594
+Read port: 58594
+WebDriver BiDi listening on ws://127.0.0.1:58584
+1669975889404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1669975910143	geckodriver	INFO	Listening on 127.0.0.1:58612
+1669975913207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofiletCJrrb"
+1669975913639	Marionette	INFO	Marionette enabled
+1669975913644	Marionette	INFO	Listening on port 58624
+Read port: 58624
+WebDriver BiDi listening on ws://127.0.0.1:58613
+1669975913804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofiletCJrrb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58613/devtools/browser/5e69ea75-33d6-4c2e-8265-01718918d354
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669975999229	Marionette	INFO	Stopped listening on port 58624
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1669976004272	geckodriver	INFO	Listening on 127.0.0.1:58758
+1669976007320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileXUXtPX"
+1669976007707	Marionette	INFO	Marionette enabled
+1669976007712	Marionette	INFO	Listening on port 58770
+Read port: 58770
+WebDriver BiDi listening on ws://127.0.0.1:58759
+1669976007876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileXUXtPX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58759/devtools/browser/62a573c8-b2aa-48e6-9ff6-93074efe767d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669976096894	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669976103638	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1669976106453	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1669976107187	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:59144
+1669976587345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileANC2DO"
+1669976587756	Marionette	INFO	Marionette enabled
+1669976587762	Marionette	INFO	Listening on port 59155
+Read port: 59155
+WebDriver BiDi listening on ws://127.0.0.1:59145
+1669976587932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ashis\\AppData\\Local\\Temp\\rust_mozprofileANC2DO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59145/devtools/browser/25b5bfb9-1c99-4d00-89db-36798024e501
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+JavaScript error: https://dev.itshandsdown.com/_next/static/chunks/pages/_app-dab263e94e310e6539a9.js, line 74: FirebaseError: Messaging: This browser doesn't support the API's required to use the Firebase SDK. (messaging/unsupported-browser).
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev.itshandsdown.com."
+1669976624771	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1669988421569	Marionette	INFO	Stopped listening on port 59155
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

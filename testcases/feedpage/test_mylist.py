@@ -38,7 +38,6 @@ class Test_My_List:
         obj = My_List(self.driver)
         obj.check_following("Mahesh")
 
-    @pytest.mark.sanity
     def test_saves_archive(self):
         obj = My_List(self.driver)
         obj.check_save_and_archive()
@@ -47,10 +46,17 @@ class Test_My_List:
         obj = My_List(self.driver)
         obj.create_list("Books")
 
-    def test_nwe_list_and_add_fave(self):
+    def test_new_list_and_add_fave(self):
         obj = My_List(self.driver)
         obj.create_list_with_fave("Flag", "India", "Pride")
 
+    @pytest.mark.sanity
+    def test_cancel_list_button(self):
+        obj = My_List(self.driver)
+        obj.check_list_cancel_button()
 
-
+    @pytest.mark.sanity
+    def test_list_with_no_name(self):
+        obj = My_List(self.driver)
+        obj.create_list_without_name_category(" ")
 

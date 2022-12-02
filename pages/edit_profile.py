@@ -10,7 +10,6 @@ class Edit_Profile(Base):
         self.driver=driver
         super().__init__(driver)
 
-
     last_name_text = (By.XPATH,"//input[@id='last_name']")
     location = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[4]/div[3]/div[1]/div[2]/div[2]/div[1]/input[1]")
     options=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[2]/div[3]/div[1]/form[1]/div[4]/div[3]/div[1]/div[3]/button[1]")
@@ -31,6 +30,7 @@ class Edit_Profile(Base):
     conf_password=(By.XPATH,"//input[@name='confirm_password']")
     save_new_changes=(By.XPATH,"//button[normalize-space()='Save New Categories!']")
     edit_name = (By.XPATH, "//input[@id='first_name']")
+    back=(By.XPATH,"//h1[@class='Text__H1-sc-4on308-1 fqthkj']")
 
     def edit_first_name(self,first_name):
         self.edit_profile_button()
@@ -81,6 +81,9 @@ class Edit_Profile(Base):
 
     def save_edit(self):
         self.EF.find_element(self.save_button).click()
+
+    def back_after_edit(self):
+        self.EF.find_element_clickable(self.back).click()
 
     def email_preference(self):
         self.EF.find_element(self.edit_button).click()

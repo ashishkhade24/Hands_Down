@@ -39,6 +39,14 @@ class Profile(Base_Features):
         self.BF.create_new_list(list_name)
         self.EF.find_element(self.view_list).click()
 
+    def create_list_with_no_name_category(self, list_name):
+        self.click_on_name()
+        self.BF.create_list_without_name_category(list_name)
+
+    def check_list_cancel_button(self):
+        self.click_on_name()
+        self.BF.click_cancel_list_button()
+
     def create_list_with_fave(self, list_name, search, text):
         self.click_on_name()
         self.BF.create_list_and_add_fave(list_name, search, text)

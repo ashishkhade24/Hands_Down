@@ -1,4 +1,4 @@
-from pages.edit_fav_things import Edit_Fav_Things
+from pages.edit_list_section import Edit_Fav_Things
 import pytest
 from page_objects.comftest import setup
 

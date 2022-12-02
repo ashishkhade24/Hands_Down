@@ -17,7 +17,8 @@ class Test_My_List:
         obj = My_Profile(self.driver)
         obj.check_back_arrow()
 
-    def test_edit_button(self):
+    @pytest.mark.sanity
+    def test_edit_button_profile(self):
         obj = My_Profile(self.driver)
         obj.check_edit_func("Ashish","Khade","Bhopal","Quality Analyst")
 
@@ -42,7 +43,19 @@ class Test_My_List:
         obj = My_Profile(self.driver)
         obj.check_save_archive()
 
-    @pytest.mark.sanity
     def test_create_list(self):
         obj = My_Profile(self.driver)
         obj.create_list("Books")
+
+    def test_create_list_and_add_fave(self):
+        obj = My_Profile(self.driver)
+        obj.create_list_with_fave("Nation","India","Pride")
+
+    def test_create_list_without_name_category(self):
+        obj = My_Profile(self.driver)
+        obj.create_list_with_no_name_category(" ")
+
+    def test_list_cancel_button(self):
+        obj = My_Profile(self.driver)
+        obj.check_list_cancel_button()
+

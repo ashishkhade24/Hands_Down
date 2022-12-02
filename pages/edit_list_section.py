@@ -47,7 +47,7 @@ class Edit_Fav_Things(Edit_user_list):
         self.EF.find_element(self.my_list).click()
         self.EF.find_element(self.fav_things).click()
         time.sleep(3)
-        self.EF.find_element(self.share_list_button)
+        self.EF.find_element(self.share_list_button).click()
         time.sleep(3)
         self.EU.share_list()
 

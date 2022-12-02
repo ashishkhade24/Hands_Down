@@ -39,7 +39,16 @@ class Test_Profile:
 
     def test_new_list(self):
         obj=Profile(self.driver)
-        obj.create_a_new_list("Magic")
+        obj.create_a_new_list("Sports")
+
+    @pytest.mark.sanity
+    def test_list_without_name_category(self):
+        obj = Profile(self.driver)
+        obj.create_list_with_no_name_category(" ")
+
+    def test_list_cancel_button(self):
+        obj = Profile(self.driver)
+        obj.check_list_cancel_button()
 
     def test_nwe_list_and_add_fave(self):
         obj = Profile(self.driver)
