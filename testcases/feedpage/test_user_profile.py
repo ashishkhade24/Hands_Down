@@ -5,6 +5,7 @@ from page_objects.comftest import setup
 @pytest.mark.usefixtures("setup")
 class Test_Profile_Check:
 
+    @pytest.mark.sanity
     def test_followers(self):
         obj=Check_Profile(self.driver)
         obj.check_followers_section("ashish")

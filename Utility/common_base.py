@@ -12,7 +12,8 @@ class Base_Features(Base):
         super().__init__(driver)
         self.EP=Edit_Profile(self.driver)
 
-    followers = (By.XPATH, "//p[normalize-space()='Follower']")
+    followers = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/p[2]")
+    click_on_follower=(By.XPATH,"//p[normalize-space()='Frank Hob']")
     following = (By.XPATH, "//p[normalize-space()='Following']")
     back_button_follower = (By.XPATH, "//h1[contains(@class,'Text__H1-sc-4on308-1 fqthkj')]")
     back_button_following = (By.XPATH, "//h1[contains(@class,'Text__H1-sc-4on308-1 fqthkj')]")
@@ -76,6 +77,12 @@ class Base_Features(Base):
     def followers_section(self, name):
         self.EF.find_element(self.followers).click()
         self.EF.find_element(self.find_someone).send_keys(name)
+        time.sleep(2)
+        self.driver.refresh()
+        time.sleep(2)
+        self.EF.find_element(self.click_on_follower).click()
+        time.sleep(2)
+        self.driver.back()
         time.sleep(2)
         self.EF.find_element(self.back_button_follower).click()
         self.driver.quit()

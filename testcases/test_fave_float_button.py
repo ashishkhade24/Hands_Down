@@ -9,8 +9,16 @@ class Test_Add_A_New_Fave:
         obj=Add_a_fave(self.driver)
         obj.add_a_fave("India","Pride")
 
-    @pytest.mark.sanity
     def test_cut_button(self):
         obj = Add_a_fave(self.driver)
         obj.check_cut_button("India", "Pride")
+
+    def test_lets_keep_at_this(self):
+        obj = Add_a_fave(self.driver)
+        obj.check_lets_keep_at_this("India", "Pride")
+
+    @pytest.mark.sanity
+    def test_done_for_now(self):
+        obj = Add_a_fave(self.driver)
+        obj.check_done_for_now()
 
