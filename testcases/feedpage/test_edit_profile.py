@@ -11,6 +11,7 @@ class Test_Edits:
         obj.edit_first_name("Ashish")
         obj.edit_last_name("Khade")
         obj.edit_location("Bhopal")
+        obj.edit_dob("11/05/1995")
         obj.edit_bio("Quality Analyst")
         obj.edit_categories()
         obj.save_edit()

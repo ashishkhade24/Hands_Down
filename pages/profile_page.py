@@ -30,9 +30,9 @@ class Profile(Base_Features):
         self.click_on_name()
         self.BF.click_saves_archive()
 
-    def edit_profile(self,first_name,lastname,city_name,designation):
+    def edit_profile(self,first_name,lastname,city_name,dob,designation):
         self.click_on_name()
-        self.BF.check_edit_profile(first_name,lastname,city_name,designation)
+        self.BF.check_edit_profile(first_name,lastname,city_name,dob,designation)
 
     def create_a_new_list(self,list_name):
         self.click_on_name()

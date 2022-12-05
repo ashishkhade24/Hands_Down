@@ -29,9 +29,10 @@ class Test_Profile:
         obj=Profile(self.driver)
         obj.check_following("mahesh")
 
+    @pytest.mark.sanity
     def test_edit_profile(self):
         obj = Profile(self.driver)
-        obj.edit_profile("Ashish","Khade","Bhopal","Quality Analyst")
+        obj.edit_profile("Ashish","Khade","Bhopal","11/05/1995","Quality Analyst")
 
     def test_save_archive(self):
         obj=Profile(self.driver)
@@ -41,7 +42,6 @@ class Test_Profile:
         obj=Profile(self.driver)
         obj.create_a_new_list("Sports")
 
-    @pytest.mark.sanity
     def test_list_without_name_category(self):
         obj = Profile(self.driver)
         obj.create_list_with_no_name_category(" ")

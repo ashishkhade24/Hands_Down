@@ -31,6 +31,7 @@ class Edit_Profile(Base):
     save_new_changes=(By.XPATH,"//button[normalize-space()='Save New Categories!']")
     edit_name = (By.XPATH, "//input[@id='first_name']")
     back=(By.XPATH,"//h1[@class='Text__H1-sc-4on308-1 fqthkj']")
+    dob=(By.XPATH,"//input[@id='dob']")
 
     def edit_first_name(self,first_name):
         self.edit_profile_button()
@@ -56,6 +57,16 @@ class Edit_Profile(Base):
         time.sleep(2)
         drop_down.click()
         time.sleep(3)
+
+    def edit_dob(self,dob):
+        DOB = self.EF.find_element(self.dob)
+        time.sleep(1)
+        DOB.send_keys(Keys.CONTROL + "a")
+        time.sleep(2)
+        DOB.send_keys(Keys.DELETE)
+        time.sleep(2)
+        DOB.send_keys(dob)
+        time.sleep(2)
 
     def edit_bio(self,designation):
         bio_section = self.EF.find_element(self.bio)
@@ -103,6 +114,8 @@ class Edit_Profile(Base):
         self.EF.find_element(self.new_password).send_keys(new)
         self.EF.find_element(self.conf_password).send_keys(cnfrm)
         self.EF.find_element(self.save_new_changes).click()
+
+
 
 
 

@@ -16,7 +16,7 @@ class Test_Profile_Check:
 
     def test_edit_profile(self):
         obj = Check_Profile(self.driver)
-        obj.edit_users_profile("Ashish","Khade","Bhopal","Quality Analyst")
+        obj.edit_users_profile("Ashish","Khade","Bhopal","11/05/1995","Quality Analyst")
 
     def test_comment_section(self):
         obj = Check_Profile(self.driver)

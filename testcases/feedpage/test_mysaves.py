@@ -23,7 +23,7 @@ class Test_My_Saves:
 
     def test_edit(self):
         obj = My_Saves(self.driver)
-        obj.check_edit_func("Ashish","Khade","Bhopal","Quality Analyst")
+        obj.check_edit_func("Ashish","Khade","Bhopal","11/05/1995","Quality Analyst")
 
     def test_invite_friend_valid_email(self):
         obj = My_Saves(self.driver)

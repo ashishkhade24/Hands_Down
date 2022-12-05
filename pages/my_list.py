@@ -19,9 +19,9 @@ class My_List(Base_Features):
         self.click_on_my_list()
         self.BF.back_arrow_check()
 
-    def check_edit_button(self,first_name,lastname,city_name,designation):
+    def check_edit_button(self,first_name,lastname,city_name,dob,designation):
         self.click_on_my_list()
-        self.BF.check_edit_profile(first_name,lastname,city_name,designation)
+        self.BF.check_edit_profile(first_name,lastname,city_name,dob,designation)
 
     def check_invite_friend(self,email):
         self.click_on_my_list()

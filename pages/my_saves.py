@@ -28,9 +28,9 @@ class My_Saves(Base_Features):
         self.EF.find_element(self.my_saves).click()
         self.BF.back_arrow_check()
 
-    def check_edit_func(self,first_name,lastname,city_name,designation):
+    def check_edit_func(self,first_name,lastname,city_name,dob,designation):
         self.EF.find_element(self.my_saves).click()
-        self.BF.check_edit_profile(first_name,lastname,city_name,designation)
+        self.BF.check_edit_profile(first_name,lastname,city_name,dob,designation)
 
     def check_invite_friend(self, email):
         self.EF.find_element(self.my_saves).click()

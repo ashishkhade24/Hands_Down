@@ -17,9 +17,10 @@ class Test_My_List:
         obj = My_List(self.driver)
         obj.check_back_arrow()
 
+    @pytest.mark.sanity
     def test_edit_button(self):
         obj = My_List(self.driver)
-        obj.check_edit_button("Ashish","Khade","Bhopal","Quality Analyst")
+        obj.check_edit_button("Ashish","Khade","Bhopal","11/05/1995","Quality Analyst")
 
     def test_invite_valid_id(self):
         obj = My_List(self.driver)
@@ -50,12 +51,10 @@ class Test_My_List:
         obj = My_List(self.driver)
         obj.create_list_with_fave("Flag", "India", "Pride")
 
-    @pytest.mark.sanity
     def test_cancel_list_button(self):
         obj = My_List(self.driver)
         obj.check_list_cancel_button()
 
-    @pytest.mark.sanity
     def test_list_with_no_name(self):
         obj = My_List(self.driver)
         obj.create_list_without_name_category(" ")

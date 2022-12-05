@@ -31,8 +31,8 @@ class Check_Profile(Base_Features):
     def check_following_section(self,name):
         self.BF.following_section(name)
 
-    def edit_users_profile(self,first_name,lastname,city_name,designation):
-        self.check_edit_profile(first_name,lastname,city_name,designation)
+    def edit_users_profile(self,first_name,lastname,city_name,dob,designation):
+        self.check_edit_profile(first_name,lastname,city_name,dob,designation)
 
     def check_comment(self, comment):
         self.EU.click_comment(comment)

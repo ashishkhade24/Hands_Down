@@ -13,11 +13,11 @@ class Test_Footer_section:
         obj = Footer_tabs_check(self.driver)
         obj.check_footer_logo_and_link()
 
+    @pytest.mark.sanity
     def test_footer_links(self):
         obj = Footer_tabs_check(self.driver)
         obj.check_footer_links()
 
-    @pytest.mark.sanity
     def test_contact_us_section(self):
         obj = Footer_tabs_check(self.driver)
         obj.check_contact_us("Ashish","testashish11@mailinator.com","No Message")

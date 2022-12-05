@@ -103,10 +103,11 @@ class Base_Features(Base):
         self.EF.find_element(self.back_button_following).click()
         self.driver.quit()
 
-    def check_edit_profile(self,first_name,lastname,city_name,designation):
+    def check_edit_profile(self,first_name,lastname,city_name,dob,designation):
         self.EP.edit_first_name(first_name)
         self.EP.edit_last_name(lastname)
         self.EP.edit_location(city_name)
+        self.EP.edit_dob(dob)
         self.EP.edit_bio(designation)
         self.EP.edit_categories()
         self.EP.save_edit()
