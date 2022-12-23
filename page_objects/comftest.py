@@ -21,6 +21,10 @@ options = webdriver.ChromeOptions()
 prefs = {"profile.default_content_setting_values.notifications": 2}
 options.add_experimental_option("prefs", prefs)
 
+# options = webdriver.ChromeOptions()
+# options.add_experimental_option('excludeSwitches', ['enable-logging'])
+# driver = webdriver.Chrome(options=options,service=ChromeService(ChromeDriverManager().install()))
+
 #Firefox
 # options = webdriver.FirefoxOptions()
 # options.set_preference('dom.webnotifications.enabled', False)
